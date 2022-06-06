@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link href="index.css" rel="stylesheet">
+</head>
+<body>
+ 
+        <form action="" method="POST" id="form"></form>
+        <div class="form">
+        <h2 class="container_title">Formulario</h2>
+        
+        <div id= "name_container" class="input_container">
+            <label for="input_last_name">Nombre</label>
+            <input type="text" name ="name" id="name" class="input" placeholder="Nombre:" required/>
+            <p class="input_error"></p>
+        </div>
+
+        <div id= "last_name_container" class="input_container">
+            <label for="input_last_name">Apellido</label>
+            <input type="text" name ="last-name" id="last_name" class="input" placeholder="Apellido:" required/>
+            <p class="input_error"></p>
+        </div>
+
+        <div id="cedula_container" class="input_container">
+            <label for="input_cedula">Cédula:</label>
+            <input type="text" name="cedula" id="cedula" class="input" placeholder="Cedula:" required/>
+            <p class="input_error"></p>
+        </div>
+        
+        <div id="email_container" class="input_container">
+            <label for="input_email">Cédula:</label>
+            <input type="text" name="email" id="email" class="input" placeholder="Email:" required/>
+            <p class="input_error"></p>
+        </div>
+        
+       <div class="input_container">
+        <button type="submit">Enviar</button>
+        <p class="warnings" id="warnings"></p>
+       </div>
+       
+        
+       
+    </div>
+</body>
+</html>
